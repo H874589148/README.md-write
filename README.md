@@ -1,5 +1,7 @@
 # README.md-write
 
+#### README文件后缀名为md。md是markdown的缩写，markdown是一种编辑博客的语言。GitHub支持的语法在标准markdown语法的基础上做了修改，称为Github Flavored Markdown，简称GFM。这里将一些语法记录下来以供查阅：
+
 ## 1.标题表示法
 ```
 # 一级标题
@@ -45,11 +47,15 @@ ___特别强调___(粗斜体)<br>
 ```
 *  第一条
 *  第二条
+    * 二级圆点
+      * 三级圆点
 *  第三条
 ```
 效果：<br>
 *  第一条
 *  第二条
+  * 二级圆点
+    *三级圆点
 *  第三条<br>
 注意：*与文字之间有空格
 
@@ -73,4 +79,61 @@ My name is `Hawkeye`,I attend `USTC`
 效果：<br>
 My name is `Hawkeye`,I attend `USTC`
 
-## 8.链接
+## 8.图片
+
+```
+![image](https://github.com/H874589148/README.md-write/blob/master/price.jpg)
+<img src="https://github.com/H874589148/README.md-write/blob/master/price.jpg" width="270" height="152" alt="图片加载失败时，显示这段字"/>
+```
+效果：<br>
+<img src="https://github.com/H874589148/README.md-write/blob/master/price.jpg" width="270" height="152" alt="图片加载失败时，显示这段字"/>
+
+## 9.链接
+```
+文字超链接:[必应](https://cn.bing.com/)
+```
+效果：<br>
+文字超链接:[必应](https://cn.bing.com/)
+
+## 10.表格
+```
+|空格|列名1|列名2|
+|:---|:---|:---|
+|第一行|列1的内容1|列2的内容1|
+|第二行|列1的内容2|列2的内容2|
+```
+
+|空格|列名1|列名2|
+|:---|:---|:---|
+|第一行|列1的内容1|列2的内容1|
+|第二行|列1的内容2|列2的内容2|
+
+## 11.列表
+```
+1. Hawkeye
+2. Hawkeye
+3. Hawkeye
+```
+效果：<br>
+1. Hawkeye
+2. Hawkeye
+3. Hawkeye<br>
+注意：1.数字加点“.”后面有空格
+
+## 12.分割线
+```
+***
+* * *
+---
+- - -
+___
+_ _ _
+```
+效果：
+
+***
+* * *
+---
+- - -
+___
+_ _ _
